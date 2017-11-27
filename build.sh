@@ -2,7 +2,7 @@
 set -e
 
 INPUT_DIR=notebooks
-OUT_DIR=html
+OUT_DIR=docs
 TEMPLATE_DIR=templates
 
 files=("Intro" "Evasins" "DIY_FASTA" "Epilogue")
@@ -30,4 +30,4 @@ done
 
 jupyter nbconvert --to slides --output-dir=slides \
                               --output=Preamble \
-                              slides/Preamble.ipynb
+                              docs/slides/Preamble.ipynb

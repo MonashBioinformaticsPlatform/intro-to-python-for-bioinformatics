@@ -1,4 +1,5 @@
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/MonashBioinformaticsPlatform/intro-to-python-for-bioinformatics/master)
 
 # Introduction to Python for Bioinformatics
 
