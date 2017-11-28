@@ -28,6 +28,7 @@ for f in "${files[@]}"; do
 
 done
 
-jupyter nbconvert --to slides --output-dir=slides \
+jupyter nbconvert --to slides --output-dir=docs/slides \
+                              --reveal-prefix reveal.js \
                               --output=Preamble \
                               docs/slides/Preamble.ipynb

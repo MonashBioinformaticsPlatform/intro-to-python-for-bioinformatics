@@ -11808,45 +11808,46 @@ div.output_wrapper {
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Requirement already satisfied: nglview in /usr/local/lib/python3.5/dist-packages
-Requirement already satisfied: ipywidgets==7 in /usr/local/lib/python3.5/dist-packages (from nglview)
-Requirement already satisfied: numpy in /usr/local/lib/python3.5/dist-packages (from nglview)
-Requirement already satisfied: ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34; in /usr/local/lib/python3.5/dist-packages (from ipywidgets==7-&gt;nglview)
-Requirement already satisfied: widgetsnbextension~=3.0.0 in /usr/local/lib/python3.5/dist-packages (from ipywidgets==7-&gt;nglview)
-Requirement already satisfied: traitlets&gt;=4.3.1 in /usr/local/lib/python3.5/dist-packages (from ipywidgets==7-&gt;nglview)
-Requirement already satisfied: ipykernel&gt;=4.5.1 in /usr/local/lib/python3.5/dist-packages (from ipywidgets==7-&gt;nglview)
-Requirement already satisfied: nbformat&gt;=4.2.0 in /usr/local/lib/python3.5/dist-packages (from ipywidgets==7-&gt;nglview)
-Requirement already satisfied: pexpect; sys_platform != &#34;win32&#34; in /usr/local/lib/python3.5/dist-packages (from ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: prompt-toolkit&lt;2.0.0,&gt;=1.0.4 in /usr/local/lib/python3.5/dist-packages (from ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: pygments in /usr/local/lib/python3.5/dist-packages (from ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: setuptools&gt;=18.5 in /usr/local/lib/python3.5/dist-packages (from ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: simplegeneric&gt;0.8 in /usr/local/lib/python3.5/dist-packages (from ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: pickleshare in /usr/local/lib/python3.5/dist-packages (from ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: decorator in /usr/local/lib/python3.5/dist-packages (from ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: jedi&gt;=0.10 in /usr/local/lib/python3.5/dist-packages (from ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: notebook&gt;=4.4.1 in /usr/local/lib/python3.5/dist-packages (from widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: six in /usr/local/lib/python3.5/dist-packages (from traitlets&gt;=4.3.1-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: ipython-genutils in /usr/local/lib/python3.5/dist-packages (from traitlets&gt;=4.3.1-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: jupyter-client in /usr/local/lib/python3.5/dist-packages (from ipykernel&gt;=4.5.1-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: tornado&gt;=4.0 in /usr/local/lib/python3.5/dist-packages (from ipykernel&gt;=4.5.1-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: jsonschema!=2.5.0,&gt;=2.4 in /usr/local/lib/python3.5/dist-packages (from nbformat&gt;=4.2.0-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: jupyter-core in /usr/local/lib/python3.5/dist-packages (from nbformat&gt;=4.2.0-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: ptyprocess&gt;=0.5 in /usr/local/lib/python3.5/dist-packages (from pexpect; sys_platform != &#34;win32&#34;-&gt;ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: wcwidth in /usr/local/lib/python3.5/dist-packages (from prompt-toolkit&lt;2.0.0,&gt;=1.0.4-&gt;ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: parso==0.1.0 in /usr/local/lib/python3.5/dist-packages (from jedi&gt;=0.10-&gt;ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: jinja2 in /usr/local/lib/python3.5/dist-packages (from notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: terminado&gt;=0.3.3; sys_platform != &#34;win32&#34; in /usr/local/lib/python3.5/dist-packages (from notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: nbconvert in /usr/local/lib/python3.5/dist-packages (from notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: python-dateutil&gt;=2.1 in /usr/local/lib/python3.5/dist-packages (from jupyter-client-&gt;ipykernel&gt;=4.5.1-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: pyzmq&gt;=13 in /usr/local/lib/python3.5/dist-packages (from jupyter-client-&gt;ipykernel&gt;=4.5.1-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: MarkupSafe&gt;=0.23 in /usr/local/lib/python3.5/dist-packages (from jinja2-&gt;notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: pandocfilters&gt;=1.4.1 in /usr/local/lib/python3.5/dist-packages (from nbconvert-&gt;notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: mistune&gt;=0.7.4 in /usr/local/lib/python3.5/dist-packages (from nbconvert-&gt;notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: entrypoints&gt;=0.2.2 in /usr/local/lib/python3.5/dist-packages (from nbconvert-&gt;notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: testpath in /usr/local/lib/python3.5/dist-packages (from nbconvert-&gt;notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: bleach in /usr/local/lib/python3.5/dist-packages (from nbconvert-&gt;notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: html5lib&gt;=0.99999999 in /usr/local/lib/python3.5/dist-packages (from bleach-&gt;nbconvert-&gt;notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
-Requirement already satisfied: webencodings in /usr/local/lib/python3.5/dist-packages (from html5lib&gt;=0.99999999-&gt;bleach-&gt;nbconvert-&gt;notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
+<pre>Requirement already satisfied: nglview in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages
+Requirement already satisfied: ipywidgets==7 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from nglview)
+Requirement already satisfied: numpy in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from nglview)
+Requirement already satisfied: ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34; in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from ipywidgets==7-&gt;nglview)
+Requirement already satisfied: traitlets&gt;=4.3.1 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from ipywidgets==7-&gt;nglview)
+Requirement already satisfied: widgetsnbextension~=3.0.0 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from ipywidgets==7-&gt;nglview)
+Requirement already satisfied: nbformat&gt;=4.2.0 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from ipywidgets==7-&gt;nglview)
+Requirement already satisfied: ipykernel&gt;=4.5.1 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from ipywidgets==7-&gt;nglview)
+Requirement already satisfied: setuptools&gt;=18.5 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: simplegeneric&gt;0.8 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: appnope; sys_platform == &#34;darwin&#34; in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: jedi&gt;=0.10 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: decorator in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: pickleshare in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: pygments in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: pexpect; sys_platform != &#34;win32&#34; in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: prompt-toolkit&lt;2.0.0,&gt;=1.0.4 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: ipython-genutils in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from traitlets&gt;=4.3.1-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: six in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from traitlets&gt;=4.3.1-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: notebook&gt;=4.4.1 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: jupyter-core in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from nbformat&gt;=4.2.0-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: jsonschema!=2.5.0,&gt;=2.4 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from nbformat&gt;=4.2.0-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: tornado&gt;=4.0 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from ipykernel&gt;=4.5.1-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: jupyter-client in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from ipykernel&gt;=4.5.1-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: parso==0.1.0 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from jedi&gt;=0.10-&gt;ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: ptyprocess&gt;=0.5 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from pexpect; sys_platform != &#34;win32&#34;-&gt;ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: wcwidth in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from prompt-toolkit&lt;2.0.0,&gt;=1.0.4-&gt;ipython&gt;=4.0.0; python_version &gt;= &#34;3.3&#34;-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: terminado&gt;=0.3.3; sys_platform != &#34;win32&#34; in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: nbconvert in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: jinja2 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: python-dateutil&gt;=2.1 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from jupyter-client-&gt;ipykernel&gt;=4.5.1-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: pyzmq&gt;=13 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from jupyter-client-&gt;ipykernel&gt;=4.5.1-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: entrypoints&gt;=0.2.2 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from nbconvert-&gt;notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: bleach in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from nbconvert-&gt;notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: mistune&gt;=0.7.4 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from nbconvert-&gt;notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: pandocfilters&gt;=1.4.1 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from nbconvert-&gt;notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: testpath in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from nbconvert-&gt;notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: MarkupSafe&gt;=0.23 in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from jinja2-&gt;notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: html5lib!=1.0b1,!=1.0b2,!=1.0b3,!=1.0b4,!=1.0b5,!=1.0b6,!=1.0b7,!=1.0b8,&gt;=0.99999999pre in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from bleach-&gt;nbconvert-&gt;notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
+Requirement already satisfied: webencodings in /Users/perry/.virtualenvs/jupyter_tag_filter_exporter/lib/python3.6/site-packages (from html5lib!=1.0b1,!=1.0b2,!=1.0b3,!=1.0b4,!=1.0b5,!=1.0b6,!=1.0b7,!=1.0b8,&gt;=0.99999999pre-&gt;bleach-&gt;nbconvert-&gt;notebook&gt;=4.4.1-&gt;widgetsnbextension~=3.0.0-&gt;ipywidgets==7-&gt;nglview)
 </pre>
 </div>
 </div>
@@ -11873,7 +11874,8 @@ Requirement already satisfied: webencodings in /usr/local/lib/python3.5/dist-pac
 
 <span class="c1"># We can download the coordinates from the PDB </span>
 <span class="c1"># and save them to a local file like this</span>
-<span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlretrieve</span><span class="p">(</span><span class="s2">&quot;https://files.rcsb.org/download/</span><span class="si">%s</span><span class="s2">.pdb&quot;</span> <span class="o">%</span> <span class="n">pdb_id</span><span class="p">)</span>
+<span class="n">pdb_fn</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2">.pdb&quot;</span> <span class="o">%</span> <span class="n">pdb_id</span>
+<span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlretrieve</span><span class="p">(</span><span class="s2">&quot;https://files.rcsb.org/download/</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">pdb_fn</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="n">pdb_fn</span><span class="p">)</span>
 
 <span class="n">view</span> <span class="o">=</span> <span class="n">nv</span><span class="o">.</span><span class="n">show_file</span><span class="p">(</span><span class="s1">&#39;3FPR.pdb&#39;</span><span class="p">)</span>
 
@@ -11898,21 +11900,9 @@ Requirement already satisfied: webencodings in /usr/local/lib/python3.5/dist-pac
 
 <div class="output_area"><div class="prompt"></div>
 
-<div class="output_html rendered_html output_subarea ">
-<p>Failed to display Jupyter Widget of type <code>NGLWidget</code>.</p>
-<p>
-  If you're reading this message in Jupyter Notebook or JupyterLab, it may mean
-  that the widgets JavaScript is still loading. If this message persists, it
-  likely means that the widgets JavaScript library is either not installed or
-  not enabled. See the <a href="https://ipywidgets.readthedocs.io/en/stable/user_install.html">Jupyter
-  Widgets Documentation</a> for setup instructions.
-</p>
-<p>
-  If you're reading this message in another notebook frontend (for example, a static
-  rendering on GitHub or <a href="https://nbviewer.jupyter.org/">NBViewer</a>),
-  it may mean that your frontend doesn't currently support widgets.
-</p>
 
+<div class="output_text output_subarea ">
+<pre>A Jupyter Widget</pre>
 </div>
 
 </div>
@@ -11947,14 +11937,14 @@ Requirement already satisfied: webencodings in /usr/local/lib/python3.5/dist-pac
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">subprocess</span> <span class="k">import</span> <span class="n">run</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">subprocess</span>
 <span class="n">database</span> <span class="o">=</span> <span class="s1">&#39;/mnt/references/uniprot/2017_10/uniprot_2017_10&#39;</span>
 
 <span class="c1"># Since this takes ~5 min or more to run, we&#39;ve prepared the &quot;evasins_canonical_uniprot.blast7&quot; output file earlier.</span>
 <span class="c1"># Please don&#39;t run it, if everyone does you&#39;ll probably bring down the Jupyter server !</span>
 
-<span class="c1"># process = run(&#39;blastp -query evasins_canonical.fasta -out evasins_canonical_uniprot.blast7 -outfmt 7 -evalue 10 -db %s&#39; % database, </span>
-<span class="c1">#               shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)</span>
+<span class="c1"># process = subprocess.run(&#39;blastp -query evasins_canonical.fasta -out evasins_canonical_uniprot.blast7 -outfmt 7 -evalue 10 -db %s&#39; % database, </span>
+<span class="c1">#                          shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)</span>
 
 <span class="c1"># print(process)</span>
 </pre></div>
@@ -12066,7 +12056,7 @@ We will grab all the hits irrespective of e-value.</p>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[581]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[7]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -12130,7 +12120,7 @@ We will grab all the hits irrespective of e-value.</p>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[582]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[8]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -12298,11 +12288,11 @@ We will grab all the hits irrespective of e-value.</p>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[586]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[12]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&#39;blastdbcmd -db /mnt/references/uniprot/2017_10/uniprot_2017_10 -entry &#34;tr|A0A023G8N3|A0A023G8N3_9ACAR,tr|A0A023G9R1|A0A023G9R1_9ACAR,tr|A0A023G4G4|A0A023G4G4_9ACAR,tr|A0A023FCX2|A0A023FCX2_9ACAR,tr|A0A023GCB8|A0A023GCB8_9ACAR,tr|A0A0C9R5W8|A0A0C9R5W8_AMBAM,tr|A0A023FQ55|A0A023FQ55_9ACAR,tr|A0A0C9S4J0|A0A0C9S4J0_AMBAM,tr|A0A131YFL3|A0A131YFL3_RHIAP,tr|A0A023G4E4|A0A023G4E4_9ACAR,tr|A0A1E1XT85|A0A1E1XT85_9ACAR,tr|A0A023FDQ9|A0A023FDQ9_9ACAR,tr|A0A023FQ59|A0A023FQ59_9ACAR,tr|A0A023FEC6|A0A023FEC6_9ACAR,tr|A0A023FDV6|A0A023FDV6_9ACAR,tr|C9W1C3|C9W1C3_RHISA,tr|A0A1E1X1C4|A0A1E1X1C4_9ACAR,tr|L7MA80|L7MA80_9ACAR,tr|A0A131YT06|A0A131YT06_RHIAP,tr|G3MIM7|G3MIM7_9ACAR,tr|A0A023G2M2|A0A023G2M2_9ACAR,tr|A0A224Y3C9|A0A224Y3C9_9ACAR,tr|A0A131X968|A0A131X968_9ACAR,tr|A0A224YE79|A0A224YE79_9ACAR,tr|A0A023G9N5|A0A023G9N5_9ACAR,tr|A0A131Z5M0|A0A131Z5M0_RHIAP,tr|C9W1Q7|C9W1Q7_RHISA,tr|A0A1E1WWB2|A0A1E1WWB2_9ACAR,tr|A0A1E1X165|A0A1E1X165_9ACAR,tr|A0A023FCJ0|A0A023FCJ0_9ACAR,tr|A0A023FC52|A0A023FC52_9ACAR,tr|A0A023FSY8|A0A023FSY8_9ACAR,tr|A0A131YS46|A0A131YS46_RHIAP,tr|A0A0C9R689|A0A0C9R689_AMBAM,tr|A0A0C9SDE2|A0A0C9SDE2_AMBAM,tr|A0A131Z586|A0A131Z586_RHIAP,tr|A0A023FSY4|A0A023FSY4_9ACAR,tr|A0A023FBW7|A0A023FBW7_9ACAR,tr|A0A131Z6L7|A0A131Z6L7_RHIAP,tr|A0A023G5I5|A0A023G5I5_9ACAR,tr|A0A023FFB5|A0A023FFB5_9ACAR,tr|A0A131YRX0|A0A131YRX0_RHIAP,tr|A0A023G109|A0A023G109_9ACAR,tr|A0A1E1X0E4|A0A1E1X0E4_9ACAR,tr|A0A0C9S461|A0A0C9S461_AMBAM,tr|A0A023FCU0|A0A023FCU0_9ACAR,tr|A0A023FTK5|A0A023FTK5_9ACAR,tr|A0A023FFD0|A0A023FFD0_9ACAR,tr|A0A131YUQ8|A0A131YUQ8_RHIAP,tr|A0A023FRC3|A0A023FRC3_9ACAR,tr|A0A023FQ65|A0A023FQ65_9ACAR,sp|P0C8E7|EVA1_RHISA,tr|A0A023G159|A0A023G159_9ACAR,tr|A0A131YHW9|A0A131YHW9_RHIAP,tr|A0A023G2I5|A0A023G2I5_9ACAR,tr|A0A023FSX6|A0A023FSX6_9ACAR,tr|A0A0F3KQC8|A0A0F3KQC8_9NEIS,tr|L7M8Y5|L7M8Y5_9ACAR,tr|A0A023FG15|A0A023FG15_9ACAR,tr|A0A023FC51|A0A023FC51_9ACAR,tr|A0A1E5SLG8|A0A1E5SLG8_9BACT,tr|G3MJ83|G3MJ83_9ACAR,tr|A0A0C9R5A0|A0A0C9R5A0_AMBAM,tr|A0A023FDY8|A0A023FDY8_9ACAR,tr|A0A023FQ58|A0A023FQ58_9ACAR,tr|A0A131Z2K5|A0A131Z2K5_RHIAP,tr|A0A023G506|A0A023G506_9ACAR,tr|A0A023FG84|A0A023FG84_9ACAR,tr|A0A023G9N9|A0A023G9N9_9ACAR,tr|A0A223FZ27|A0A223FZ27_RHIMP,tr|G3MIX6|G3MIX6_9ACAR,sp|P0C8E9|EVA4_RHISA,tr|A0A131YNV9|A0A131YNV9_RHIAP,tr|A0A023G065|A0A023G065_9ACAR,tr|A0A224YCA7|A0A224YCA7_9ACAR,tr|A0A023FF01|A0A023FF01_9ACAR,tr|A0A023FQC1|A0A023FQC1_9ACAR,tr|L7MC83|L7MC83_9ACAR,tr|C9W1Q9|C9W1Q9_RHISA,tr|A0A224YE88|A0A224YE88_9ACAR,tr|L7M8Z8|L7M8Z8_9ACAR,tr|A0A023FED6|A0A023FED6_9ACAR,tr|A0A023G6B6|A0A023G6B6_9ACAR,tr|A0A0C9SAC5|A0A0C9SAC5_AMBAM,tr|A0A1E1WXB0|A0A1E1WXB0_9ACAR,tr|G3MSY6|G3MSY6_9ACAR,tr|A0A023FG08|A0A023FG08_9ACAR,tr|C9W1N8|C9W1N8_RHISA,tr|W6KVX4|W6KVX4_9TRYP,tr|A0A023FC49|A0A023FC49_9ACAR,tr|A0A224YCT0|A0A224YCT0_9ACAR,tr|A0A023FT53|A0A023FT53_9ACAR,tr|A0A131ZAV1|A0A131ZAV1_RHIAP,tr|A0A131YQC0|A0A131YQC0_RHIAP,tr|L7LT68|L7LT68_9ACAR,tr|L7MAB0|L7MAB0_9ACAR,tr|A0A131XLS7|A0A131XLS7_9ACAR,tr|G3MSY5|G3MSY5_9ACAR,tr|A0A023GD11|A0A023GD11_9ACAR,tr|A0A0C9RVT5|A0A0C9RVT5_AMBAM,tr|A0A131Z5R5|A0A131Z5R5_RHIAP,tr|A0A131X8U1|A0A131X8U1_9ACAR,tr|A0A224Y913|A0A224Y913_9ACAR,tr|G3MSY7|G3MSY7_9ACAR,tr|A0A224YE69|A0A224YE69_9ACAR,tr|A0A023FC02|A0A023FC02_9ACAR,tr|L7MC72|L7MC72_9ACAR,tr|A0A224Y3D0|A0A224Y3D0_9ACAR,tr|A0A023FD15|A0A023FD15_9ACAR,tr|A0A023G2G7|A0A023G2G7_9ACAR,tr|A0A023FZ70|A0A023FZ70_9ACAR,tr|A0A023G9R6|A0A023G9R6_9ACAR,tr|A0A224YCD7|A0A224YCD7_9ACAR,tr|A0A0C9S3J8|A0A0C9S3J8_AMBAM,tr|A0A131XJ87|A0A131XJ87_9ACAR,tr|A0A023G2D8|A0A023G2D8_9ACAR,tr|A0A023GCC3|A0A023GCC3_9ACAR,tr|A0A023FQ56|A0A023FQ56_9ACAR,tr|A0A131Z694|A0A131Z694_RHIAP,tr|A0A023FRB3|A0A023FRB3_9ACAR,tr|A0A023FZW1|A0A023FZW1_9ACAR,tr|A0A131Z6N2|A0A131Z6N2_RHIAP,tr|A0A023G9Q7|A0A023G9Q7_9ACAR,tr|A0A023GD07|A0A023GD07_9ACAR,tr|A0A0C9RX43|A0A0C9RX43_AMBAM,tr|L7MC74|L7MC74_9ACAR,tr|A0A023FC58|A0A023FC58_9ACAR,tr|A0A223FZ22|A0A223FZ22_RHIMP,tr|A0A023FE33|A0A023FE33_9ACAR,tr|A0A023G9N2|A0A023G9N2_9ACAR,tr|A0A023FF05|A0A023FF05_9ACAR,tr|A0A224Y3D8|A0A224Y3D8_9ACAR&#34; &gt;evasins_uniprot_hits.fasta&#39;</pre>
+<pre>&#39;blastdbcmd -db /mnt/references/uniprot/2017_10/uniprot_2017_10 -entry &#34;tr|A0A224YE88|A0A224YE88_9ACAR,tr|A0A131YT06|A0A131YT06_RHIAP,tr|A0A023GD07|A0A023GD07_9ACAR,tr|A0A131X968|A0A131X968_9ACAR,tr|A0A023FSY4|A0A023FSY4_9ACAR,tr|A0A224Y3D0|A0A224Y3D0_9ACAR,tr|A0A131Z694|A0A131Z694_RHIAP,tr|A0A023FC49|A0A023FC49_9ACAR,tr|A0A023FC02|A0A023FC02_9ACAR,tr|A0A131YRX0|A0A131YRX0_RHIAP,tr|G3MIX6|G3MIX6_9ACAR,tr|A0A131Z6N2|A0A131Z6N2_RHIAP,tr|C9W1C3|C9W1C3_RHISA,tr|A0A223FZ22|A0A223FZ22_RHIMP,tr|A0A023FSY8|A0A023FSY8_9ACAR,tr|A0A023FTK5|A0A023FTK5_9ACAR,tr|A0A023FSX6|A0A023FSX6_9ACAR,tr|A0A023FCX2|A0A023FCX2_9ACAR,tr|A0A131YUQ8|A0A131YUQ8_RHIAP,tr|A0A023G2I5|A0A023G2I5_9ACAR,tr|C9W1Q9|C9W1Q9_RHISA,tr|A0A023G5I5|A0A023G5I5_9ACAR,tr|A0A023G2M2|A0A023G2M2_9ACAR,tr|A0A023G9R6|A0A023G9R6_9ACAR,tr|A0A131X8U1|A0A131X8U1_9ACAR,tr|A0A131YHW9|A0A131YHW9_RHIAP,tr|A0A131ZAV1|A0A131ZAV1_RHIAP,tr|A0A1E1WXB0|A0A1E1WXB0_9ACAR,tr|A0A023FQ59|A0A023FQ59_9ACAR,tr|A0A0C9S461|A0A0C9S461_AMBAM,tr|A0A023FC51|A0A023FC51_9ACAR,tr|A0A023FD15|A0A023FD15_9ACAR,tr|L7M8Z8|L7M8Z8_9ACAR,tr|A0A023G2G7|A0A023G2G7_9ACAR,tr|C9W1N8|C9W1N8_RHISA,tr|A0A023G506|A0A023G506_9ACAR,tr|A0A023FC58|A0A023FC58_9ACAR,tr|A0A1E1X165|A0A1E1X165_9ACAR,tr|A0A0C9R689|A0A0C9R689_AMBAM,tr|A0A1E5SLG8|A0A1E5SLG8_9BACT,tr|A0A023G6B6|A0A023G6B6_9ACAR,tr|G3MSY7|G3MSY7_9ACAR,tr|A0A023FZW1|A0A023FZW1_9ACAR,tr|A0A023FF05|A0A023FF05_9ACAR,tr|A0A0C9SDE2|A0A0C9SDE2_AMBAM,tr|A0A131XLS7|A0A131XLS7_9ACAR,tr|A0A023FG15|A0A023FG15_9ACAR,tr|A0A131YNV9|A0A131YNV9_RHIAP,tr|L7LT68|L7LT68_9ACAR,tr|A0A131YFL3|A0A131YFL3_RHIAP,tr|A0A023G4G4|A0A023G4G4_9ACAR,tr|G3MSY5|G3MSY5_9ACAR,tr|A0A023G159|A0A023G159_9ACAR,tr|G3MIM7|G3MIM7_9ACAR,tr|A0A023G8N3|A0A023G8N3_9ACAR,tr|L7MC83|L7MC83_9ACAR,tr|A0A1E1WWB2|A0A1E1WWB2_9ACAR,tr|A0A023FF01|A0A023FF01_9ACAR,tr|A0A224Y3C9|A0A224Y3C9_9ACAR,tr|A0A1E1X1C4|A0A1E1X1C4_9ACAR,tr|A0A023FC52|A0A023FC52_9ACAR,tr|A0A023FRC3|A0A023FRC3_9ACAR,tr|A0A023G9N2|A0A023G9N2_9ACAR,tr|A0A023FE33|A0A023FE33_9ACAR,tr|A0A0F3KQC8|A0A0F3KQC8_9NEIS,tr|A0A0C9R5W8|A0A0C9R5W8_AMBAM,tr|A0A224YCT0|A0A224YCT0_9ACAR,tr|A0A0C9SAC5|A0A0C9SAC5_AMBAM,sp|P0C8E9|EVA4_RHISA,tr|A0A023FEC6|A0A023FEC6_9ACAR,tr|G3MSY6|G3MSY6_9ACAR,tr|A0A0C9RX43|A0A0C9RX43_AMBAM,tr|A0A023FDY8|A0A023FDY8_9ACAR,tr|A0A023G4E4|A0A023G4E4_9ACAR,tr|A0A0C9S3J8|A0A0C9S3J8_AMBAM,tr|L7MC72|L7MC72_9ACAR,tr|A0A023FFB5|A0A023FFB5_9ACAR,tr|A0A023FZ70|A0A023FZ70_9ACAR,tr|A0A023GCB8|A0A023GCB8_9ACAR,tr|A0A131Z586|A0A131Z586_RHIAP,tr|A0A023FQC1|A0A023FQC1_9ACAR,tr|W6KVX4|W6KVX4_9TRYP,tr|A0A224YCD7|A0A224YCD7_9ACAR,tr|A0A224YE69|A0A224YE69_9ACAR,tr|A0A0C9S4J0|A0A0C9S4J0_AMBAM,tr|A0A131Z2K5|A0A131Z2K5_RHIAP,tr|A0A023G9N9|A0A023G9N9_9ACAR,tr|A0A023FDV6|A0A023FDV6_9ACAR,tr|A0A023G065|A0A023G065_9ACAR,tr|A0A0C9RVT5|A0A0C9RVT5_AMBAM,tr|A0A224Y913|A0A224Y913_9ACAR,tr|A0A023G2D8|A0A023G2D8_9ACAR,tr|A0A023G9N5|A0A023G9N5_9ACAR,tr|A0A023G9Q7|A0A023G9Q7_9ACAR,tr|A0A131YS46|A0A131YS46_RHIAP,tr|A0A023FCU0|A0A023FCU0_9ACAR,sp|P0C8E7|EVA1_RHISA,tr|A0A023FG84|A0A023FG84_9ACAR,tr|A0A023FBW7|A0A023FBW7_9ACAR,tr|A0A023FQ65|A0A023FQ65_9ACAR,tr|G3MJ83|G3MJ83_9ACAR,tr|C9W1Q7|C9W1Q7_RHISA,tr|A0A023FQ58|A0A023FQ58_9ACAR,tr|A0A023FT53|A0A023FT53_9ACAR,tr|A0A023GCC3|A0A023GCC3_9ACAR,tr|A0A023FFD0|A0A023FFD0_9ACAR,tr|A0A131YQC0|A0A131YQC0_RHIAP,tr|L7M8Y5|L7M8Y5_9ACAR,tr|A0A224Y3D8|A0A224Y3D8_9ACAR,tr|A0A023FCJ0|A0A023FCJ0_9ACAR,tr|A0A0C9R5A0|A0A0C9R5A0_AMBAM,tr|A0A023FQ55|A0A023FQ55_9ACAR,tr|A0A023GD11|A0A023GD11_9ACAR,tr|A0A131Z5M0|A0A131Z5M0_RHIAP,tr|A0A023FDQ9|A0A023FDQ9_9ACAR,tr|L7MC74|L7MC74_9ACAR,tr|A0A131Z6L7|A0A131Z6L7_RHIAP,tr|A0A023FED6|A0A023FED6_9ACAR,tr|A0A1E1XT85|A0A1E1XT85_9ACAR,tr|L7MAB0|L7MAB0_9ACAR,tr|A0A023FG08|A0A023FG08_9ACAR,tr|A0A131Z5R5|A0A131Z5R5_RHIAP,tr|A0A023G9R1|A0A023G9R1_9ACAR,tr|L7MA80|L7MA80_9ACAR,tr|A0A023FRB3|A0A023FRB3_9ACAR,tr|A0A023G109|A0A023G109_9ACAR,tr|A0A023FQ56|A0A023FQ56_9ACAR,tr|A0A224YE79|A0A224YE79_9ACAR,tr|A0A131XJ87|A0A131XJ87_9ACAR,tr|A0A224YCA7|A0A224YCA7_9ACAR,tr|A0A223FZ27|A0A223FZ27_RHIMP,tr|A0A1E1X0E4|A0A1E1X0E4_9ACAR&#34; &gt;evasins_uniprot_hits.fasta&#39;</pre>
 </div>
 
 </div>
@@ -12322,9 +12312,16 @@ We will grab all the hits irrespective of e-value.</p>
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">subprocess</span> <span class="k">import</span> <span class="n">run</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">subprocess</span>
 
-<span class="n">process</span> <span class="o">=</span> <span class="n">run</span><span class="p">(</span><span class="n">cmd</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">stderr</span><span class="o">=</span><span class="n">subprocess</span><span class="o">.</span><span class="n">PIPE</span><span class="p">)</span>
+<span class="n">process</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cmd</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">stderr</span><span class="o">=</span><span class="n">subprocess</span><span class="o">.</span><span class="n">PIPE</span><span class="p">)</span>
+
+<span class="c1"># If you&#39;d like to skip this step (eg if you don&#39;t have blastdbcmd or a local Uniprot BLAST database available),</span>
+<span class="c1"># you can run:</span>
+<span class="c1">#</span>
+<span class="c1"># !cp evasins_uniprot_hits.fasta.complete evasins_uniprot_hits.fasta</span>
+<span class="c1">#</span>
+<span class="c1"># to create a copy of the expected output sequences.</span>
 </pre></div>
 
 </div>
