@@ -1,6 +1,0 @@
-#!/bin/bash
-
-pip3 install -U pip setuptools wheel
-pip3 install -U scikit-bio==0.5.1
-
-jupyter nbextension enable --py  --sys-prefix widgetsnbextension
