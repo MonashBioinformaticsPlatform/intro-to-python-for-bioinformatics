@@ -5,22 +5,32 @@
 
 An introductory workshop to teach basic Python with a bioinformatics flavour.
 
+This version was delivered at BioinfoSummer 2017.
+
+Notebooks and associated data files are in `notebooks`, static HTML exported version are in `docs`.
+
 There are currently two main modules:
 
-* A basic introduction to the Python language.
-* Running BLAST and parsing output, applied to a protein family.
+* A basic introduction to the Python language (`01_Intro`).
+* Running BLAST and parsing output, applied to a protein family (`02_Evasins`).
 
-## Building course notes
+## Running the notebooks
+
+Zero installation method: run the notebooks is to use [mybinder.org](https://mybinder.org/v2/gh/MonashBioinformaticsPlatform/intro-to-python-for-bioinformatics/bioinfosummer2017)
+
+Alternatively, [install Jupyter](http://jupyter.org/install.html), run `jupyter notebook` in the repository directory.
+
+You can run also run a Dockerized version locally like:
+```
+pip install jupyter-repo2docker
+jupyter-repo2docker https://github.com/MonashBioinformaticsPlatform/intro-to-python-for-bioinformatics
+```
+
+### Building the static course notes
 
 To export all notebooks to HTML:
 ```
 ./build.sh
-```
-
-You can run a Dockerized version on [mybinder.org](https://mybinder.org/v2/gh/MonashBioinformaticsPlatform/intro-to-python-for-bioinformatics/master), or locally like:
-```
-pip install jupyter-repo2docker
-jupyter-repo2docker https://github.com/MonashBioinformaticsPlatform/intro-to-python-for-bioinformatics
 ```
 
 ## License
